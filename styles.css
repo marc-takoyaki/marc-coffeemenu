@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'memphis';
+    src: url(fonts/Memphis-River.otf);
+}
+@font-face {
+    font-family: 'ranberg';
+    src: url(fonts/ranberg.otf);
+}
+body {
+    font-family: ranberg, sans-serif;
+    background-color: #795708;
+    margin: 0;
+    padding: 0;
+    background-image: url('cofeebg.jpg');
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #b5790a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 800px;
+    overflow-y: scroll;
+    background-image: "MuchaTseBle.jpg";
+    
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: linear-gradient(rgba(248, 174, 69, 0.9), rgba(87, 63, 35, 0.5), rgba(226, 172, 56, 0.5)); /* Fading effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 1000px;
+    overflow-y: auto;
+}
+.container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #edc79d;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #553606;
+    border-radius: 5px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #f0eeeb;
+    font-family: 'memphis', sans-serif;
+    font-size: 300%;
+}
+h2 {
+    text-align: center;
+    color: rgb(38, 19, 4);
+    font-family: 'memphis', sans-serif;
+    font-size: 300%;
+}
+h3 {
+text-align: center;
+color: rgb(39, 20, 3);
+font-family: 'memphis', sans-serif;
+font-size: 300%;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease;
+    
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.menu-item .item-content {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.menu-item h2 {
+    color: #432b07;
+}
+
+.menu-item p {
+    color: #fefdfc;
+}
+
+.menu-item span {
+    font-weight: bold;
+    color: #fffefe;
+    font-family: '';
+}
+
+.additional-info {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(106, 52, 5, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(235, 188, 107, 0.2);
+    display: none;
+}
+
+.menu-item:hover .additional-info {
+    display: block;
+    color: #f0eae5;
+}
+.header {
+    background-color: #432e08;
+    color: #5e3107;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+    
+.footer p {
+    margin: 0;
+}
